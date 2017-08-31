@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>TypeScript Demo</title>
+
+        <script type="text/javascript" language="JavaScript" src="../js/ConfigManager.js"></script>
+        <script type="text/javascript" language="JavaScript" src="../js/Images.js"></script>
+        <script type="text/javascript" language="JavaScript" src="../js/LruCache.js"></script>
+        
+        <script type="text/javascript" language="JavaScript" src="../js/ImageCache.js"></script>
+        <!-- <script type="text/javascript" language="JavaScript" src="../ts/ImageCache.js"></script> -->
+        
+        <script type="text/javascript">
+            var imageCache;
+            var imageIndex;
+            var cacheKeys;
+            
+            function initDemo() {
+                imageCache = new ImageCache();
+                imageCache.putImage({ id: 'apple', width: 400, height: 400, cacheKey: 'apple:400', dataUri: appleDataUri });
+                imageCache.putImage({ id: 'orange', width: 400, height: 400, cacheKey: 'orange:400', dataUri: orangeDataUri });
+                imageCache.putImage({ id: 'pear', width: 400, height: 400, cacheKey: 'pear:400', dataUri: pearDataUri });
+                
+                imageIndex = -1;
+                cacheKeys = ['apple:400', 'orange:400', 'pear:400'];
+                showNextImage();
+            }
+            
+            function showNextImage() {
+                imageIndex = (imageIndex + 1) % cacheKeys.length;
+                var imageInfo = imageCache.getCachedImage(cacheKeys[imageIndex]);
+                document.getElementById('image').src = imageInfo.dataUri; 
+            }
+        </script>
+    </head>
+    
+    <body onload="initDemo()">
+        <div style="display: flex; justify-content: center">
+            <div style="display: flex; flex-direction: column; justify-content: center">
+                <img src="" id="image" onclick="showNextImage()" style="width: 400px; height: 400px">
+            </div>
+        </div>
+    </body>
+</html>

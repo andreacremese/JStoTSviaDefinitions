@@ -16,7 +16,8 @@
 //     private cache: LruCache<string, ImageInfo>;
 //
 //     public constructor() {
-//         let cacheSize = getConfigManager().getNumber(ConfigProperty.IMAGE_CACHE_SIZE);
+//         let configManager = getConfigManager();
+//         let cacheSize = configManager.getNumber(ConfigProperty.IMAGE_CACHE_SIZE);
 //         if (!cacheSize || cacheSize < ImageCache.MIN_CACHE_SIZE) {
 //             cacheSize = ImageCache.MIN_CACHE_SIZE;
 //         }

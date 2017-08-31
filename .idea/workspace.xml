@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8354b90d-ae7f-4fa8-995c-1053e7a431b1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/app.html" afterPath="$PROJECT_DIR$/html/app.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ts/ImageCache.js" afterPath="$PROJECT_DIR$/ts/ImageCache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ts/ImageCache.js.map" afterPath="$PROJECT_DIR$/ts/ImageCache.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ts/ImageCache.ts" afterPath="$PROJECT_DIR$/ts/ImageCache.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ts/tsconfig.json" afterPath="$PROJECT_DIR$/ts/tsconfig.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ts/tsmigration.d.ts" afterPath="$PROJECT_DIR$/ts/tsmigration.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,7 +49,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ShowTell.md" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ShowTell.md" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ShowTell.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
@@ -78,12 +72,12 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="60">
-                    <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                  <first_editor relative-caret-position="30">
+                    <caret line="2" column="65" lean-forward="false" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
                     <folding />
                   </first_editor>
                   <second_editor />
@@ -217,8 +211,8 @@
         <option value="$PROJECT_DIR$/ts/ImageCache.ts" />
         <option value="$PROJECT_DIR$/ts/LruCache.d.ts" />
         <option value="$PROJECT_DIR$/html/app.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/ShowTell.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -412,12 +406,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1504196027490</updated>
-      <workItem from="1504196030243" duration="4298000" />
+      <workItem from="1504196030243" duration="4369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4298000" />
+    <option name="totallyTimeSpent" value="4369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1916" height="1057" extended-state="6" />
@@ -699,22 +693,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/ShowTell.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <first_editor relative-caret-position="255">
+            <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ShowTell.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="65" lean-forward="false" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
             <folding />
           </first_editor>
           <second_editor />

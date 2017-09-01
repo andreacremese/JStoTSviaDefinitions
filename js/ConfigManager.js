@@ -36,7 +36,8 @@ var configManager;
 function getConfigManager() {
     if (!configManager) {
         configManager = new ConfigManager();
+        configManager.setNumber(ConfigProperty.IMAGE_CACHE_SIZE, 100);
     }
-    
+
     return configManager;
 }

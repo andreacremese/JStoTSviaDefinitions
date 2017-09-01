@@ -14,6 +14,7 @@
 function ImageCache() {
     var cacheSize = getConfigManager().getNumber(ConfigProperty.IMAGE_CACHE_SIZE);
     if (!cacheSize || cacheSize < ImageCache.MIN_CACHE_SIZE) {
+        console.log(">>>> no cache size");
         cacheSize = ImageCache.MIN_CACHE_SIZE;
     }
 

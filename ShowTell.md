@@ -10,7 +10,7 @@
 * back to `ImageCache.js` and `ts`. Uncomment the ts version, side by side comparison.
 * Config Manager, assumption that it is Not Yet migrated - but we need to leverage its API
 * the solution to this is to use `tsmigration.d.ts` to connect JS and TS part. The idea is to not have to write complete interfaces and definition of the type as we'd need to traverse most of the front end code base. This would take a long time and, instead, when the component that we are referencing is converted,  its efinition is removed and the existing code will interact directly with the TypeScript implementation.
-* the migration is completed when this file is empty.
+* the migration is completed when the `.d.ts` file is empty.
 * not implementing all the interfaces but rather providing the d.ts file, as that would force to implement all the classes traversing large parts of the code base.
 * switch to `noImplicitAny` : false - all works BUT no control over the API - defeats the purpose of predictive code
 * `noImplicitAny` : true

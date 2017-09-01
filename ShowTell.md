@@ -16,4 +16,5 @@
 * `noImplicitAny` : true
 * the idea is that JS and TS coexist, bonded through the definition file
 * when config manager is transitioned into TS, its definition is taken away, and the consumer will look at the implementation directly rather than at the d.ts file.
-* (OPTIONAL) - convert the ConfigManager?
+* convert the ConfigManager and remove the entry in the `d.ts` file.
+* add a method to the ConfigManager in order to show a `refactor` 

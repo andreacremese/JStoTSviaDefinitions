@@ -17,6 +17,7 @@
 //
 //     public constructor() {
 //         let configManager = getConfigManager();
+//
 //         let cacheSize = configManager.getNumber(ConfigProperty.IMAGE_CACHE_SIZE);
 //         if (!cacheSize || cacheSize < ImageCache.MIN_CACHE_SIZE) {
 //             cacheSize = ImageCache.MIN_CACHE_SIZE;

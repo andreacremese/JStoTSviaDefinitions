@@ -5,8 +5,8 @@
 // type ConfigManager = any;
 // declare let ConfigManager: ConfigManager;
 //
-// type ConfigProperty = any;
-// declare let ConfigProperty: ConfigProperty;
+type ConfigProperty = any;
+declare let ConfigProperty: ConfigProperty;
 
 // *************************************************************************************************
 // Unmigrated global functions

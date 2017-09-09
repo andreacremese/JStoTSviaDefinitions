@@ -38,3 +38,9 @@ type as we'd need to traverse most of the front end code base. This would take a
 * convert the ConfigManager and remove the entry in the `d.ts` file.
 
 * add a method to the ConfigManager in order to show a `refactor` 
+
+```
+class ConfigProperty {
+    public static IMAGE_CACHE_SIZE : string = "imageCacheSize";
+}
+```
